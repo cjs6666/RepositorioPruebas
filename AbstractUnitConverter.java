@@ -59,7 +59,7 @@ public abstract class AbstractUnitConverter implements UnitConverter {
      * @param component  the component that provides the graphics object
      * @return the given Inches as pixels
      */
-    public int inchAsPixel(double in, Component component) {
+    public int inchAsPixel(double in, Component component,int triple) {
         return inchAsPixel(in, getScreenResolution(component));
     }
 
